@@ -2,7 +2,7 @@
 print "START\n";
 $set = 0;
 while (1){
-`sleep 5`;
+`sleep 120`;
 `osascript -e 'tell application "System Events" to display dialog "Switch Your Task"'`;
 $set += 1;
 $min = $set * 2;
